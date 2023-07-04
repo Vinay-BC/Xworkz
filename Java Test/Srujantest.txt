@@ -1,0 +1,96 @@
+1.class Student{
+	String a="srujan";
+	System.out.println(a);
+}
+
+2. No
+
+3. No
+
+4.No
+
+5. to hold the command line argument inthe form of string values
+
+6. yes it is a Strictly programming language
+
+7.yes
+
+8.No
+
+9.String[] a ={'hassan','bangalore','chikkamagalur'};
+
+10.0
+
+11. a.first we need to write a java code and then we need to save the file in .java
+    b.and then we should compile the .java file using javac command
+    c.these java file is send to the byte code and it create a new .class file
+    d.then it sends to the jvm which converts bytecode to Machinelanguage
+    e.and it sends to the os to display the message
+    
+
+12. javac stands for Java Compiler It is used to compile Java source code files  with a .java extension into bytecode files with a .class extension Java compiler checks the syntax and semantics of the source code and translates it into a platform-independent bytecode format that can be executed by the Java Virtual Machine
+
+	java is highlevel intrepreted object oriented programming language 
+
+13.In Java a classloader is responsible for loading Java classes into the Java Virtual Machine at runtime it is part of the Java Runtime Environment and plays a crucial role in the Java class-loading mechanism.
+   
+14. when we are accesing the element if the size is more than that time we will get this error
+
+16. JDK:JDK(java development kit) it is a kit which provide the tools, libraries,and component to run the java program.
+    JRE:JRE: JRE(java Runtime Environment) it is a software package which provides the necessary runtime environment to run java program.
+    JVM:the JVM(java virtual machine) it is a component of java platform which acts as java runtime environment for executing java bytecode.
+
+18. yes
+
+19. write once run anywhere means : the java code can be writte oince and can run in any platform like mac,windows,linux.
+
+
+21.When you run the Java program, Java compiler first compiles your Java code to bytecode. Then, the JVM translates bytecode into native machine code 
+
+22.In Java, a class member refers to any variable or method that belongs to a class. It is a member or an element of the class that can be accessed and used by objects or instances of that class.
+
+23.Formal argument and Actual argument
+
+24.Formal arguments, also known as parameters, are variables declared in the definition of a function or method. They are used to receive values or data when the function is called, allowing the function to perform operations using the provided input.
+   Actual arguments, also known as arguments or parameters, are the values or expressions provided to a function or method when it is called
+
+25.variables is used to store the data and then give them a name so that can referenced with in a program.
+
+26.The java stores a variable in a stack
+
+28.Data Types In Java: Before we using a variable, we should specify what type of variable it is. Because, when we specify the datatype, the system can understand the memory requirements and the operations allowed on the corresponding variables.
+
+29.local, instance and static
+
+30.first we need to write a java code and then we need to save the file in .java and then we should compile the .java file using javac command these java file is send to the byte code and it create a new .class file then it sends to the jvm which converts bytecode to Machinelanguage and it sends to the os to display the message
+
+32.Write once run Anywhere
+
+33.type java --version in a command prompt
+
+34.java 20.0.1
+
+35.class is a design or a blueprint of the object
+
+36. object is a instance of the class
+
+37. class class_name{
+	statement
+}
+
+38.class Student{
+	String name;
+	int age;
+	String place;
+}
+
+class StudentRunner{
+	public static void main(String[] args)
+{
+	Student ref = new Student()
+	System.out.println(ref.name);
+
+}
+}
+
+39.initializing the instance variable when the object has created
