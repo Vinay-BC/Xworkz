@@ -1,0 +1,62 @@
+1. datatype variable = value;
+
+2. No
+3. No
+4.No
+5.The String[] args parameter in the main method of a Java program allows you to pass command-line arguments to the program when it is executed.
+6.Yes
+7.Yes
+8.No
+9.int array[] = { "Values"};
+	int array = {30,40,50,60,70};
+10.Error
+11.Write the programe using notpad editor and save it in a .extension formate then compile the programe using command javac filename.java
+then it will create bytecode the jvm will convert the bytecode into machine level language using the command java filename then it will give the output.
+12.javac is the Java compiler It is a program that translates Java source code into bytecode.
+13.The ArrayIndexOutOfBoundsException is a runtime exception in Java that occurs when you try to access an array element with an index that is outside the valid range of the array.
+   java is the Java Virtual Machine (JVM) It is responsible for executing the compiled bytecode produced by the javac compiler.
+14.class loader is a part of the Java Runtime Environment (JRE) that is responsible for dynamically loading Java classes into the JVM at runtime.
+15.Java is not considered a pure object-oriented programming language.The reason lies in a few characteristics of Java that deviate from the strict definition of a pure object-oriented language
+16.The JDK is a software development kit that provides tools, libraries, and documentation for developing Java application.
+   The JRE is an environment that provides the necessary runtime libraries, class libraries, and resources required for executing Java applications 
+   JVM is the virtual machine that executes Java bytecode
+17.The special method called by the JVM (Java Virtual Machine) is the main method.
+18.Yes
+19.Yes
+20.No Change
+21.Java Virtual Machine(JVM) will convert the bytecode into machine level language
+22.There are two main types of class members in Java
+  1.Instance Variables: Instance variables  are variables that hold data specific to each instance of a class. 
+  2.Methods: Methods are functions defined within a class that perform certain operations or actions.
+23.Formal arguments,Actual arguments
+25.variable is a named storage location used to hold a value.
+26.In Java variables are stored in the computer's memory during program execution
+27.Variable initialization refers to the process of giving an initial value to a variable when it is declared. 
+   variable assignment occurs when a value is assigned or reassigned to an already declared variable at some point during the program's execution.
+28.Memory Allocation: declare a variable in Java  the compiler needs to allocate memory based on its datatype
+29.Local variable,Instance variable
+30.jvm will convert the bytecode into machine level language
+32.Write once run anywhere
+33.java --version
+34.java SE 17
+35.class is a  bluprint or design to create an object
+36.object is an Instance of class
+37.class Name {
+	//Statement
+	}
+38.class Person{
+	String name;
+	int age;
+	String gender;
+	Person(String name,int age,String gender){
+	System.out.println(name,age,gender);
+}
+}
+class PersonRunner{
+	public static void main(String[] args){
+	system.out.println(Person Details);
+	 Person refer = new Person();
+	Person();
+	} 
+}
+39.constructor is special member function that is used to initialize objects of a class
